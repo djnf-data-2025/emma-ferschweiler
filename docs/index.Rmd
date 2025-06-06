@@ -1,0 +1,153 @@
+---
+title: "Emma Ferschweiler"
+output: html_document
+date: "2025-04-22"
+---
+
+
+Hudson County is home to around 720,000 residents contained within a 46.19 square mile area. It is most recognized as a tightly-packed urban sprawl for young professionals and high-income earners living in newly developed luxury apartments and condos. Transplants from New York City see the area, particularly Jersey City and Hoboken, as an affordable stepping stone to the Big Apple. 
+
+But for many others, it is where they were brought up, planted roots, and are hoping to raise a family. The current housing conditions in Hudson County are making this reality more improbable by the year. Home values have gone up by 25% since 2010, with more than half of homes valued at $500,000 or more. 
+
+According to the U.S. Census Bureau, the average cost of owner-occupied housing units, meaning homes where the owner lives in the house, is $508,600.
+
+This story looks at the unstable housing conditions in Hudson County and how it is becoming less of a destination for long-term living and families. Homeownership rates have historically been lower than the national percentage. It currently sits at 31.2%, a slight decrease from 15 years ago when it was 34.3%. The nature of cities like Jersey City, Hoboken, and Guttenberg does not allow much space to expand housing, but the available assets continue to see these price hikes. Additionally, the majority of renters pay a quarter of their household income for rent. The U.S. Census Bureau found that the most common income-to-rent ratio in Hudson County is 35% or more. This means 37% of residents are spending more than the recommended amount according to NerdWallet’s advice. 
+
+I still need to aggregate and analyze property tax information for Hudson County since I will be cross-referencing this information with income to see how property taxes affect residents at different class levels. With this information, it will illustrate the problem with developing more luxury condos and apartment buildings in Hudson County. As new developments increase the cost of living in an area, it pushes out original residents who have a difficult time keeping up with the changes gentrification brings. 
+
+Additional sources for this story will be information from the NJ Division of Taxation to acquire information on property taxes. This will be displayed in a map with illustrations of the highest property tax to income ratios. 
+
+People living in Hudson County would be interested in this story as they will realize the disparities between income and housing exist in their home. In addition, they may consider taking this issue to their local leaders and politicians. People thinking of moving to Hudson County would also be interested since they may reconsider moving to the area given the housing conditions. 
+
+Visuals: Line graph displaying increasing home values over time, map of New Jersey with the average cost to buy a house, photos of cities in Hudson County, photos of new luxury developments in Hudson County. 
+
+Additional sources: Long-time residents in Hudson County, New residents living in new developments in Hudson County,  local leaders and politicians in the county, Hudson County Division of Housing and Community Development, Jersey City Division of Affordable Housing, Hudson County Office of Planning, Rutgers University Urban Policy
+
+Questions: Who is predominantly moving into these new developments? How many new luxury buildings have been built recently? How does gentrification affect Hudson County quality of life? 
+
+
+
+
+This notebook helps you get started
+
+From your editor
+Investigate Your Community
+Take a closer look at property tax and income disparity in Hudson County. Hudson is the most densely populated counties in New Jersey and home to multi-million-dollar condominiums and low-income housing, often in close proximity to each other.
+Property values have impacted taxes and affordability in communities like Jersey City and Hoboken, with many longtime residents raising concerns about being pushed out as costs continue to rise.
+ 
+https://www.hcnj.us/finance/tax-assessments/
+
+
+# Load software libraries
+```{r}
+#install.packages("tidyverse")
+#install.packages("janitor")
+#install.packages("readxl")
+#install.packages("rvest")
+library(tidyverse)
+library(janitor)
+library(readxl)
+library(rvest)
+
+```
+
+
+# Load your data
+
+
+```{r}
+
+data <- read.csv("../data/NJ_Assessment_Records_Search_4_24_2025.csv") |> 
+    clean_names()
+
+
+```
+
+Data details:
+
+
+# Explore the data types
+```{r}
+# glimpse(data)
+
+```
+# Fix dates
+```{r}
+data <- data |> 
+  mutate(date = lubridate::ymd(sale_date))
+```
+
+
+
+# Data exploration: dates
+
+```{r}
+dates <- data |> 
+   count(date) |> 
+  arrange(desc(n))
+```
+
+
+
+
+# Questions 
+
+Write down questions you want answered:
+
+
+
+# Data Details
+https://www.hcnj.us/finance/tax-assessments/
+–13986 Records Found for Download
+Data as of 04/23/25
+
+--https://www.hcnj.us/finance/tax-assessments/
+
+
+
+
+# Memo from editor
+I’ve included an idea for Emma below. If you have any questions, please let me know.
+ 
+Best regards,
+Craig
+ 
+Investigate Your Community
+Take a closer look at property tax and income disparity in Hudson County. Hudson is the most densely populated counties in New Jersey and home to multi-million-dollar condominiums and low-income housing, often in close proximity to each other.
+Property values have impacted taxes and affordability in communities like Jersey City and Hoboken, with many longtime residents raising concerns about being pushed out as costs continue to rise.
+ 
+https://www.hcnj.us/finance/tax-assessments/
+–13986 Records Found for Download
+Data as of 04/23/25
+Click Here to Open Zip File
+ 
+https://www.census.gov/quickfacts/fact/table/hudsoncountynewjersey/PST045224
+ 
+https://www.nj.gov/treasury/taxation/lpt/localtax.shtml
+ 
+https://www.nj.com/politics/2025/03/average-nj-property-tax-bill-hits-10k-see-towns-by-town-costs.html
+ 
+https://www.nj.com/data/2025/03/see-njs-31-bargain-towns-where-property-taxes-average-less-than-5k.html
+ 
+https://www.nj.com/news/2025/03/njs-29-towns-with-the-highest-property-tax-bills-ranked.html
+ 
+ 
+ 
+Local journalism needs your support. Subscribe at nj.com/supporter.
+ 
+- - -
+ 
+Craig Turpin, Managing Producer
+NJ Advance Media
+485 Route 1 South, Building E
+Suite 300
+Iselin, NJ 08830-3009
+p: 908-581-1276
+e: cturpin@njadvancemedia.com
+
+
+<iframe title="The average cost to buy a house in New Jersey" aria-label="Map" id="datawrapper-chart-TYH7x" src="https://datawrapper.dwcdn.net/TYH7x/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
+
+
+
