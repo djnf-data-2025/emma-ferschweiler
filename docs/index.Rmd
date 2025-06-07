@@ -1,32 +1,76 @@
 ---
-title: "Emma Ferschweiler"
+title: "Priced Out: How Rising Costs Are Reshaping Life in Hudson County"
 output: html_document
 date: "2025-04-22"
 ---
 
+<h2>Context</h2>
+<div class="paragraph"> Hudson County is home to around 720,000 residents contained within a 46.19 square mile area. It is most recognized as a tightly-packed urban sprawl for young professionals and high-income earners living in newly developed luxury apartments and condos. Transplants from New York City see the area, particularly Jersey City and Hoboken, as an affordable stepping stone to the Big Apple. </div>
 
-Hudson County is home to around 720,000 residents contained within a 46.19 square mile area. It is most recognized as a tightly-packed urban sprawl for young professionals and high-income earners living in newly developed luxury apartments and condos. Transplants from New York City see the area, particularly Jersey City and Hoboken, as an affordable stepping stone to the Big Apple. 
+<hr>
 
-But for many others, it is where they were brought up, planted roots, and are hoping to raise a family. The current housing conditions in Hudson County are making this reality more improbable by the year. Home values have gone up by 25% since 2010, with more than half of homes valued at $500,000 or more. 
+<iframe title="The average cost to buy a housing unit in New Jersey" aria-label="Map" id="datawrapper-chart-TYH7x" src="https://datawrapper.dwcdn.net/TYH7x/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
 
-According to the U.S. Census Bureau, the average cost of owner-occupied housing units, meaning homes where the owner lives in the house, is $508,600.
+<hr>
 
-This story looks at the unstable housing conditions in Hudson County and how it is becoming less of a destination for long-term living and families. Homeownership rates have historically been lower than the national percentage. It currently sits at 31.2%, a slight decrease from 15 years ago when it was 34.3%. The nature of cities like Jersey City, Hoboken, and Guttenberg does not allow much space to expand housing, but the available assets continue to see these price hikes. Additionally, the majority of renters pay a quarter of their household income for rent. The U.S. Census Bureau found that the most common income-to-rent ratio in Hudson County is 35% or more. This means 37% of residents are spending more than the recommended amount according to NerdWallet’s advice. 
+<div class="paragraph">But for many others, it is where they were brought up, planted roots, and are hoping to raise a family. The current housing conditions in Hudson County are making this reality more improbable by the year.
 
-I still need to aggregate and analyze property tax information for Hudson County since I will be cross-referencing this information with income to see how property taxes affect residents at different class levels. With this information, it will illustrate the problem with developing more luxury condos and apartment buildings in Hudson County. As new developments increase the cost of living in an area, it pushes out original residents who have a difficult time keeping up with the changes gentrification brings. 
+This story looks at the unstable housing conditions in Hudson County and how it is becoming less of a destination for long-term living and families. Homeownership rates have historically been lower than the national percentage of 65.1%. It currently sits at 31.2%, a slight decrease from 15 years ago when it was 34.3%. The nature of cities like Jersey City, Hoboken, and Guttenberg does not allow much space to expand housing, but the available assets continue to see these price hikes.
+
+Hudson County started becoming the urban reality it is today during the 19th century. The construction of railroads and the Port of New York and New Jersey development facilitated this transformation. Factories, warehouses, and residential areas sprang up, attracting a diverse population of immigrants seeking employment and better living conditions.
+
+In recent years, there has been large scale projects for new residential complexes, particularly luxury, upscale condos and apartments. I will further research the median price points for these projects to see if this new housing is affordable for the common Hudson County resident. Based on data from NJ Department of Community Affairs, there are more building permits for multi-family use rather than one family housing units. 
+
+2022 saw 7,566 buildings permits for housing alone with 7,056 of these being multifamily and 510 single family. This is a 62% increase from 2021 for total housing building permits.</div>
+
+<hr>
+
+<h2>Where are we now?</h2>
+
+<hr>
+
+<div class="paragraph">Home values have gone up by 25% since 2010, with more than half of homes valued at $500,000 or more. According to the U.S. Census Bureau, the average cost of owner-occupied housing units, meaning homes where the owner lives in the house, is $508,600.</div>
+
+<hr>
+
+<iframe title="Hudson County Home Values" aria-label="Bullet Bars" id="datawrapper-chart-RYANj" src="https://datawrapper.dwcdn.net/RYANj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="608" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
+
+<hr>
+
+<div class="paragraph">Additionally, the majority of renters pay a quarter of their household income for rent. The U.S. Census Bureau found that the most common income-to-rent ratio in Hudson County is 35% or more. This means 37% of residents are spending more than the recommended amount, according to NerdWallet’s calculations on appropriate income-to-rent ratios.
+
+I still need to aggregate and analyze property tax information for Hudson County since I will be cross-referencing this information with income to see how property taxes affect residents at different class levels. With this information, it will illustrate the problem with developing more luxury condos and apartment buildings in Hudson County. As new developments increase the cost of living in an area, it pushes out original residents who have a difficult time keeping up with the changes gentrification brings.
 
 Additional sources for this story will be information from the NJ Division of Taxation to acquire information on property taxes. This will be displayed in a map with illustrations of the highest property tax to income ratios. 
 
+<h3>Target Audience</h3>
 People living in Hudson County would be interested in this story as they will realize the disparities between income and housing exist in their home. In addition, they may consider taking this issue to their local leaders and politicians. People thinking of moving to Hudson County would also be interested since they may reconsider moving to the area given the housing conditions. 
 
-Visuals: Line graph displaying increasing home values over time, map of New Jersey with the average cost to buy a house, photos of cities in Hudson County, photos of new luxury developments in Hudson County. 
+<h3>Visuals</h3>
+Line graph displaying increasing home values over time, map of New Jersey with the average cost to buy a house, photos of cities in Hudson County, photos of new luxury developments in Hudson County.
 
-Additional sources: Long-time residents in Hudson County, New residents living in new developments in Hudson County,  local leaders and politicians in the county, Hudson County Division of Housing and Community Development, Jersey City Division of Affordable Housing, Hudson County Office of Planning, Rutgers University Urban Policy
+<h3>Additional sources</h3>
+Long-time residents in Hudson County, New residents living in new developments in Hudson County,  local leaders and politicians in the county, Hudson County Division of Housing and Community Development, Jersey City Division of Affordable Housing, Hudson County Office of Planning, Rutgers University Urban Policy
 
-Questions: Who is predominantly moving into these new developments? How many new luxury buildings have been built recently? How does gentrification affect Hudson County quality of life? 
+<h3>Questions</h3>
+Who is predominantly moving into these new developments? How many new luxury buildings have been built recently? How does gentrification affect Hudson County quality of life? 
 
+</div>
 
+<hr>
 
+<iframe title="Median Value of Home-Owned Housing Units" aria-label="Interactive line chart" id="datawrapper-chart-QgYiZ" src="https://datawrapper.dwcdn.net/QgYiZ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="399" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
+
+<hr>
+<hr>
+
+<style>
+   .paragraph{font-family: 'Poppins';font-size: 20px;}
+   h3 {font-weight: bold;}
+</style>
 
 This notebook helps you get started
 
@@ -144,10 +188,3 @@ Suite 300
 Iselin, NJ 08830-3009
 p: 908-581-1276
 e: cturpin@njadvancemedia.com
-
-
-<iframe title="The average cost to buy a house in New Jersey" aria-label="Map" id="datawrapper-chart-TYH7x" src="https://datawrapper.dwcdn.net/TYH7x/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
-</script>
-
-
-
